@@ -7,14 +7,12 @@ class Backer
 
   end
 
-  def add_backer(name)
-    newbacker = Backer.new(name)
-    @@backers << newbacker
-  end
+  
 
   def back_project(project)
-    @@backed_projects << project
+    @@backers << project
   end
+  
   def backed_projects
     @@backed_projects
   end
