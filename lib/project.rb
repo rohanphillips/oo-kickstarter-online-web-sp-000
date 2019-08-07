@@ -14,7 +14,7 @@ class Project
 
   end
 
-  
+
 
 
   def backers
