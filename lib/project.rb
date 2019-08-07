@@ -9,7 +9,7 @@ class Project
   end
 
   def add_backer(name)
-    @@backers << name  
+    @@backers << name
   end
 
   def backed_projects
