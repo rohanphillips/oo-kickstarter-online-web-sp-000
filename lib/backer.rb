@@ -7,13 +7,9 @@ class Backer
 
   end
 
-  def backers
-    @@backers
-    binding.pry
-  end
 
   def back_project(project)
-    @@backers << self
+    Project.add_backer(self)
     @@backed_projects << project
   end
 
