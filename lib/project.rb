@@ -4,3 +4,4 @@ class Projects
   def initialize(project)
     @project = project
   end
+end
