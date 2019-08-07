@@ -6,6 +6,11 @@ class Backer
     @name = name
 
   end
+
+  def add_backer(name)
+    @@backers << name
+  end
+  
   def back_project(project)
     @@backed_projects << project
   end
