@@ -9,6 +9,6 @@ class Backer
   def backed_projects
     @@backers
   end
-  
+
 
 end
