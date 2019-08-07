@@ -13,7 +13,7 @@ class Project
     @@backed_projects << project
   end
   def backed_projects
-    binding.pry 
+    binding.pry
     @@backed_projects
   end
 
