@@ -5,4 +5,8 @@ class Project
     @project = project
     @title = project
   end
+
+  def backers
+
+  end
 end
