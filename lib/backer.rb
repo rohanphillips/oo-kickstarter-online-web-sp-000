@@ -10,7 +10,7 @@ class Backer
     @@backed_projects << project
   end
   def backed_projects
-    @@backers
+    @@backed_projects
   end
 
 
